@@ -33,75 +33,23 @@
     <!-- minimal loader shown until image descriptors are loaded. Loading may take a while according to the device computational power -->
     <!-- <div class="arjs-loader">
         <div>Loading, please wait...</div>
-    </div> -->
-    <div style="height: 20px;">
-        <button type="button" onclick="fun1()">
-            Buster Drone
-        </button>
+    </div>
 
-        <button type="button" onclick="fun2()">
-            Car
-        </button>
-
-        <button type="button" onclick="fun3()">
-            Monk
-        </button>
-
-        <button type="button" onclick="fun4()">
-            Dev Parisar
-        </button>
-
-        <button type="button" onclick="fun5()">
-            Fridge
-        </button>
-
-        <button type="button" onclick="fun6()">
-            Tree
-        </button>
-        
-        <button type="button" onclick="fun7()">
-            Wooden WardDrobe
-        </button>
-
-        <button type="button" onclick="fun8()">
-            Couch
-        </button>
-
-        <button type="button" onclick="fun9()">
-            Microwave
-        </button>
-
-        <button type="button" onclick="fun10()">
-            coffee table
-        </button>
-        
-        <button type="button" onclick="fun11()">
-            arm chair furniture        
-        </button>
-        
-        <button type="button" onclick="fun12()">
-            chair
-        </button>
-
-        <button type="button" onclick="fun13()">
-            Image 1
-        </button>
-
-        <button type="button" onclick="fun14()">
-            Image 2
-        </button>
-
-        <button type="button" onclick="fun15()">
-            couldron
-        </button>
-
-        <button type="button" onclick="fun16()">
-            building
-        </button>
-        </div>
-
-    <div id="cam"></div>
-   
+    <!-- a-frame scene -->
+    <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;" embedded
+        arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+        <!-- a-nft is the anchor that defines an Image Tracking entity -->
+        <!-- on 'url' use the path to the Image Descriptors created before. -->
+        <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
+        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+            smoothThreshold="5">
+            <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
+            <a-entity gltf-model="assets/car/scene.gltf" scale="150 150 150" position="150 250 0">
+            </a-entity>
+        </a-nft>
+        <!-- static camera that moves according to the device movemenents -->
+        <a-entity camera></a-entity>
+    </a-scene>
 </body>
 <script src="index.js"></script>
 </html>
