@@ -99,7 +99,7 @@ function fun6() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/tree.gltf" scale="15 15 15" position="400 0 -100">
             </a-entity>
@@ -118,7 +118,7 @@ function fun7() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/wooden_wardrobe.glb" scale="10 10 10" position="400 0 -100">
             </a-entity>
@@ -137,7 +137,7 @@ function fun8() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/Couch.gltf" scale="25 25 25" position="400 0 -100">
             </a-entity>
@@ -156,7 +156,7 @@ function fun9() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/Microwave.glb" scale="25 25 25" position="400 0 -100">
             </a-entity>
@@ -175,7 +175,7 @@ function fun10() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/coffee_table.gltf" scale="150 150 150" position="400 0 -100">
             </a-entity>
@@ -194,7 +194,7 @@ function fun11() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/arm_chair__furniture.glb" scale="250 250 250" position="400 0 -100">
             </a-entity>
@@ -232,7 +232,7 @@ function fun13() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/ImageToStl.com_2 bhk.glb" scale="15 15 15" position="400 0 -100">
             </a-entity>
@@ -251,7 +251,7 @@ function fun14() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/ImageToStl.com_kitchen.glb" scale="15 15 15" position="400 0 -100">
             </a-entity>
@@ -270,7 +270,7 @@ function fun15() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/couldron/scene.gltf" scale="250 250 250" position="800 0 -100">
             </a-entity>
@@ -289,7 +289,7 @@ function fun16() {
         renderer="logarithmicDepthBuffer: true;" 
         embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
-        <a-nft type="nft" url="assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
+        <a-nft type="nft" url="./image-tracking/assets/image_descriptors/track_image" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5">
             <a-entity gltf-model="assets/building/scene.gltf" scale="5 5 5" position="400 0 -100">
             </a-entity>
